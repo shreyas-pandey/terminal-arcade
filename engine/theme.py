@@ -10,9 +10,9 @@ A theme turns a role into an ANSI SGR sequence (always on a black background):
 
 _MONO_BRIGHT = {
     "bright", "title", "select", "bulb_on", "warn",
-    "snake_head", "food", "player", "bullet", "explosion", "rainbow0",
+    "snake_head", "food", "player", "bullet", "explosion", "rainbow0", "car_player",
 }
-_MONO_DIM = {"dim", "star", "star_bright", "bulb_off"}
+_MONO_DIM = {"dim", "star", "star_bright", "bulb_off", "road_line", "grass", "tree"}
 
 _CGA = {
     "text": "37", "bright": "97", "dim": "90", "title": "96", "frame": "37",
@@ -23,6 +23,9 @@ _CGA = {
     "player": "96", "bullet": "93", "enemy_bullet": "91", "explosion": "93",
     "enemy_grunt": "92", "enemy_wing": "95", "enemy_boss": "91",
     "star": "90", "star_bright": "37",
+    "car_player": "96", "car_oncoming": "91", "car_same": "94", "truck": "95",
+    "pothole": "33", "blockade": "93", "road_edge": "97", "road_line": "37",
+    "road_center": "93", "grass": "32", "tree": "92",
     "rainbow0": "91", "rainbow1": "93", "rainbow2": "92",
     "rainbow3": "96", "rainbow4": "94", "rainbow5": "95",
 }

@@ -12,7 +12,6 @@ class BootScene(Scene):
         self.ctx = ctx
         self.launcher = launcher
         self.t = 0.0
-        cartridges = " ".join(g.title for g in games)
         # (text, role, pause after the line); {display} is filled in at render time.
         self.script = (
             ("TERMINAL ARCADE BIOS v1.0", "bright", 0.15),
@@ -21,7 +20,8 @@ class BootScene(Scene):
             ("MEMORY TEST ........... 640K OK", "text", 0.35),
             ("VIDEO ................. {display}", "text", 0.1),
             ("SOUND ................. NOT FOUND", "text", 0.1),
-            (f"CARTRIDGES ............ {cartridges}", "text", 0.4),
+            (f"CARTRIDGES ............ {len(games)} FOUND", "text", 0.15),
+            *((f"  > {g.title}", "text", 0.08) for g in games),
             ("", "text", 0.0),
             ("READY.", "bright", 0.0),
         )

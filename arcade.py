@@ -3,7 +3,7 @@
 Usage:
     python arcade.py                 boot into the arcade
     python arcade.py --no-boot       skip the power-on screen
-    python arcade.py <game>          play one game directly (tetris, snake, starfighter)
+    python arcade.py <game>          play one game directly (tetris, snake, starfighter, roadfighter)
 """
 
 import sys

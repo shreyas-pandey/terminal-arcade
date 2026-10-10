@@ -14,8 +14,9 @@ PARADE = (
     (20, "[][][]", "piece_T"),
     (30, "{o}", "enemy_grunt"), (35, "<V>", "enemy_wing"), (41, "/=O=\\", "enemy_boss"),
     (52, "|", "bullet"), (55, "<[#]>", "player"),
+    (64, "[=]", "car_oncoming"), (69, "|#|", "car_player"),
 )
-PARADE_LENGTH = 60
+PARADE_LENGTH = 72
 
 
 def _marquee_path():
