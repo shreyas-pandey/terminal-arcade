@@ -198,7 +198,7 @@ class Game:
 
     def _lock(self):
         cells = self.piece.cells()
-        self.board.place(cells)
+        self.board.place(cells, self.piece.kind)
         self.piece = None
         self.hold_used = False
         if all(y < HIDDEN for _, y in cells):

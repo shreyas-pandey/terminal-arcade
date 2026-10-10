@@ -1,5 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
+saves/
 highscore.json
 SPEC.md
+PLAN.md

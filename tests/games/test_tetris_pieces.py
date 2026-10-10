@@ -1,6 +1,6 @@
 import unittest
 
-from src.pieces import I_KICKS, JLSTZ_KICKS, KINDS, SHAPES, kicks
+from games.tetris.pieces import I_KICKS, JLSTZ_KICKS, KINDS, SHAPES, kicks
 
 
 class ShapeTests(unittest.TestCase):

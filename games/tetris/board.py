@@ -16,9 +16,10 @@ class Board:
     def fits(self, cells):
         return all(self.is_free(x, y) for x, y in cells)
 
-    def place(self, cells):
+    def place(self, cells, value=True):
+        """Fill cells; `value` is what the renderer sees (the piece kind)."""
         for x, y in cells:
-            self.grid[y][x] = True
+            self.grid[y][x] = value
 
     def full_rows(self):
         return [y for y, row in enumerate(self.grid) if all(row)]

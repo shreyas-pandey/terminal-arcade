@@ -1,11 +1,11 @@
 import random
 import unittest
 
-from src.board import WIDTH
-from src.game import (
+from games.tetris.board import WIDTH
+from games.tetris.game import (
     LINE_CLEAR_TIME, LOCK_RESET_LIMIT, Game, Piece, gravity_interval,
 )
-from src.pieces import KINDS
+from games.tetris.pieces import KINDS
 
 
 def new_game(**kwargs):

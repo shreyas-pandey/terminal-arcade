@@ -1,6 +1,6 @@
 import unittest
 
-from src.board import HEIGHT, WIDTH, Board
+from games.tetris.board import HEIGHT, WIDTH, Board
 
 
 class BoardTests(unittest.TestCase):
