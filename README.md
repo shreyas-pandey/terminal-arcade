@@ -35,25 +35,14 @@ Press `M` anywhere to switch. Your choice is remembered.
 
 ## Controls
 
-**Arcade:** `↑` `↓` select, `Enter` play (or `1`–`3`), `M` display mode, `Q` quit. `Esc` returns to the arcade from a game's title screen.
-
-**Tetris**
-
-| Key | Action |
+| | Controls |
 |---|---|
-| `←` `→` / `A` `D` | Move |
-| `↓` / `S` | Soft drop |
-| `Space` / `W` | Hard drop |
-| `↑` / `X` | Rotate clockwise |
-| `Z` | Rotate counter-clockwise |
-| `C` | Hold |
-| `P` / `Esc` | Pause (`Q` to quit while paused) |
+| **Arcade** | `↑` `↓` select · `Enter` / `1`–`3` play · `M` display mode · `Q` quit |
+| **Tetris** | `←` `→` / `A` `D` move · `↓` / `S` soft drop · `Space` / `W` hard drop · `↑` / `X` rotate clockwise · `Z` rotate counter-clockwise · `C` hold · `P` / `Esc` pause · `←` `→` / `0`–`9` starting level (title screen) |
+| **Snake** | `←` `↑` `↓` `→` / `W` `A` `S` `D` steer · `P` / `Esc` pause |
+| **Starfighter** | `←` `↑` `↓` `→` / `W` `A` `S` `D` fly · hold `Space` fire · `P` / `Esc` pause |
 
-On the title screen, `←` `→` or `0`–`9` pick the starting level.
-
-**Snake**: arrows / `W` `A` `S` `D` steer, `P` / `Esc` pause.
-
-**Starfighter**: arrows / `W` `A` `S` `D` fly, hold `Space` to fire, `P` / `Esc` pause.
+In every game, `Q` on the pause screen returns to the arcade, `Esc` on a game's title screen goes back to the arcade, and `M` switches the display mode.
 
 ## Run
 
