@@ -1,5 +1,9 @@
 # Terminal Arcade
 
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Dependencies: none](https://img.shields.io/badge/dependencies-none-brightgreen)](requirements.txt)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 Retro arcade games in your terminal, in pure ASCII. Boot it up, pick a cartridge, play.
 
 ![Arcade launcher: browsing games and switching display modes](launcher/media/launcher.gif)
@@ -66,7 +70,15 @@ python -m venv .venv
 
 The terminal must be at least 60×24. Built for Windows Terminal / PowerShell; macOS/Linux work too (`.venv/bin/python arcade.py`). High scores and settings are saved under `saves/`, one file per game.
 
+## Contributing
+
+Want to add a game? See [CONTRIBUTING.md](CONTRIBUTING.md) for how to build your own cartridge.
+
 ## Tests
+
+[![tests](https://github.com/shreyas-pandey/terminal-arcade/actions/workflows/tests.yml/badge.svg)](https://github.com/shreyas-pandey/terminal-arcade/actions/workflows/tests.yml)
+
+The suite runs on Windows, macOS and Linux (Python 3.10 and 3.13) on every push. To run it locally:
 
 ```
 .venv\Scripts\python -m unittest
